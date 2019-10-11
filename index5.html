@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>ImagenesFlex</title>
+    <style media="screen" type="text/css">
+        .container {
+            margin: 0 auto;
+            width: 1100px;
+            height: auto;
+        }
+        
+        .container1 {
+            display: flex;
+            flex-direction: row;
+            /* margin: 5px; */
+            justify-content: space-around;
+        }
+        
+        .caja1 {
+            width: 20%;
+        }
+        
+        .caja1 img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container2 {
+            margin: 25px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .caja2 {
+            width: 100%;
+            height: 400px;
+        }
+        
+        .caja2 img {
+            object-fit: cover;
+            object-position: 0 3;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container3 {
+            display: flex;
+            flex-direction: row;
+            /* margin: 5px; */
+            justify-content: space-around;
+        }
+        
+        .caja3 {
+            width: 20%;
+        }
+        
+        .caja3 img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .imagenL {
+            height: 6rem;
+        }
+        
+        .imagenU {
+            height: 5rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+
+            <div class="caja1"><img src="assets/1519910473_492871_1519910821_noticia_normal.jpg" alt=""> </div>
+            <div class="caja1"><img src="assets/FOTOS-DE-PAISAJES-AL-ATARDECER-DE-KARIN-BRUIN_MOTT.png" alt=""></div>
+            <div class="caja1"><img src="assets/Janette-Asche.jpg" alt=""></div>
+            <div class="caja1"><img src="assets/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada-1440x810.jpg" alt=""></div>
+        </div>
+
+        <div class="container2">
+            <div class="caja2"><img src="assets/PaisajesNaturales-MurallaChina.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="caja3 imagenL"><img src="assets/Ventisquero-colgante1.jpg" alt=""></div>
+            <div class="caja3"><img src="assets/espana_murcia_cieza_primavera_shutterstock_1064584877_alex_tihonovs_shutterstock.jpg" alt=""></div>
+            <div class="caja3 imagenL"><img src="assets/las-mejores-apps-para-tomar-fotos-de-paisajes-de-paga-y-gratis.png" alt=""></div>
+            <div class="caja3"><img src="assets/1519910473_492871_1519910821_noticia_normal.jpg" alt=""></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
